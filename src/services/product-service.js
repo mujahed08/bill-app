@@ -1,7 +1,7 @@
 import axios from 'axios';
 import authHeader from './auth-header';
 
-const API_URL = 'http://localhost:8080/api/product';
+const API_URL = 'http://localhost:8082/api/product';
 
 class ProductService {
   list(page) {
